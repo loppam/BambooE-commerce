@@ -1,0 +1,129 @@
+.navContainer {
+  background: #181813b2;
+  padding: 27px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.navWrapper {
+  max-width: 1248px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navButton {
+  font-size: 32px;
+  color: white;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.navActions {
+  display: flex;
+  column-gap: 32px;
+}
+
+.navActionItem {
+  color: white;
+  font-size: 32px;
+}
+
+.footerContainer {
+  margin-top: 100px;
+  background: #181813;
+  color: white;
+  width: 1439px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.footerContainer__socialContainer {
+  padding: 50px;
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerContainer__socialContainerFormInput {
+  background: #292929;
+  padding: 11px 15px;
+  display: inline-block;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
+
+.footerContainer__socialContainerForm {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 32px;
+  color: white;
+  font-size: 18px;
+}
+.footerContainer__socialContainerForm::after {
+  content: "";
+  border: 2px solid white;
+  text-align: center;
+  column-gap: 67px;
+  margin-left: 50px;
+}
+
+.socialIcons{
+  font-size: 18px;
+  display: flex;
+  column-gap: 40px;
+}
+
+.footerSocialIconsig{
+  color: black;
+  background-color: white;
+  font-size: 32px;
+  border-radius: 10px;
+}
+.footerSocialIconsfb{
+  background-color: white;
+  color: blue;
+  border-radius: 40px;
+  font-size: 32px;
+}
+.footerSocialIconstw{
+  background-color: white;
+  color: rgb(105, 218, 255);
+  border-radius: 40px;
+  font-size: 32px;
+}
+
+.footerButton{
+  font-size: 32px;
+  color: white;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.footerBottom{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+.footerBottom h3{
+  align-self: center;
+  /* padding-top: 20px; */
+}
+
+.content{
+  margin-top: 150px;
+}
+
+.ig{
+  color: aqua;
+  background-color: red;
+}
